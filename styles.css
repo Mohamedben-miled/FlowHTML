@@ -372,4 +372,125 @@ header {
     position: relative;
 }
 
-/* Rest of your existing styles... */
+/* Mobile menu styles */
+.mobile-menu-toggle {
+    display: none;
+    border: none;
+    background: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.mobile-menu-toggle i {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 991px) {
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background: white;
+        flex-direction: column;
+        padding: 80px 20px;
+        transition: 0.3s ease-in-out;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .nav-item a {
+        justify-content: center;
+    }
+
+    /* Hero section adjustments */
+    .hero-content {
+        margin: 0 1rem;
+        padding: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    /* Cards adjustments */
+    .feature-card, .price-card {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    /* Price cards grid */
+    .price-card {
+        margin: 0 auto;
+        max-width: 350px;
+    }
+
+    /* Footer adjustments */
+    footer .row > div {
+        text-align: center !important;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero-content {
+        padding: 1.5rem;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .section-shape {
+        display: none;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo img {
+        height: 50px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .display-5 {
+        font-size: 1.8rem;
+    }
+
+    .price-card .display-4 {
+        font-size: 2rem;
+    }
+}
