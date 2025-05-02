@@ -20,14 +20,14 @@ Welcome to the official repository of **Flow Coworking Space**, a modern and dyn
 - JavaScript (optional, for future enhancements)
 
 ## 📁 Project Structure
-flow-coworking/
-├── index.html # Main webpage
-├── styles.css # Custom styles (if applicable)
-├── script.js # JavaScript file (optional)
-├── assets/ # Images and logos
-│ └── logo.png
-│ └── *.jpg (gallery images)
-└── README.md # This documentation file
+flow-coworking/ <br>
+├── index.html # Main webpage <br>
+├── styles.css # Custom styles (if applicable) <br>
+├── script.js # JavaScript file (optional) <br>
+├── assets/ # Images and logos <br>
+│ └── logo.png <br>
+│ └── *.jpg (gallery images) <br>
+└── README.md # This documentation file <br>
 
 ## 🧭 Navigation Sections
 
