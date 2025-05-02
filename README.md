@@ -22,8 +22,8 @@ Welcome to the official repository of **Flow Coworking Space**, a modern and dyn
 ## 📁 Project Structure
 flow-coworking/ <br>
 ├── index.html # Main webpage <br>
-├── styles.css # Custom styles (if applicable) <br>
-├── script.js # JavaScript file (optional) <br>
+├── styles.css # Custom styles  <br>
+├── script.js # JavaScript file  <br>
 ├── assets/ # Images and logos <br>
 │ └── logo.png <br>
 │ └── *.jpg (gallery images) <br>
