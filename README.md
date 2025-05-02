@@ -17,8 +17,8 @@ Welcome to the official repository of **Flow Coworking Space**, a modern and dyn
 - CSS3
 - Bootstrap 5
 - Font Awesome
-- JavaScript (optional, for future enhancements)
-
+- JavaScript
+  
 ## 📁 Project Structure
 flow-coworking/ <br>
 ├── index.html # Main webpage <br>
